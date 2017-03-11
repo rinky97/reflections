@@ -1,0 +1,42 @@
+1...How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The lines of code in green were added additionally and those in red were removed from the previous commit
+
+2...How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Access to the entire history lets the programmer know what were the changes made during the course of the project and lets him work on a particular part or piece of code he wants to work on.
+
+3...What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+PROS
+    1)Not always do we have changes made to a part of the project worth updating.
+    2)when the user feels that significant changes have been made he can commit it as per his requirement
+    3)The programmer can also state the particular change made in it,at that time.
+CONS
+   1)Sometimes instead of considering the changes in a logical fashion and if the user commits all the changes made in a single go,it is very difficult to figure out what all changes were made     
+
+4...Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git updates all the files associates with a particular project whenever a commit is made so that all the changes made during that commit can be recorded and accessed at any time and accordingly changes can be made. 
+
+5...How can you use the commands git log and git diff to view the history of files?
+
+   GIT LOG 
+   first of all ,to use this command we must be in the particular directory where the project is saved.and on typing it all the commits made so far in the git is shown or displayed.
+   GIT DIFF
+   this command lets one to spot the differnces between the any two consecutive commits. And first takes in the ID of the earlier commit and then the ID of the newer one.
+   Also the statements in green indicate the new lines of code was added and the statements in red  indicate that those lines were removed in the recent commit.
+
+6...How might using version control make you more confident to make changes that
+could break something?
+
+    Since it offers me the flexibility to go back to the earlier version with ease incase I screw up.
+
+7...Now that you have your workspace set up, what do you want to try using Git for?
+
+    To work on projects that I am interested in and to contribute to this amazing plateform.
